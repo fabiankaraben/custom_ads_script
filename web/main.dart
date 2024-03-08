@@ -10,7 +10,7 @@ void main() {
     linkElement.setAttribute('type', 'text/css');
     linkElement.setAttribute(
       'href',
-      'https://ads.esdocu.com/assets/css/custom-ads.css',
+      '/assets/css/custom-ads.css',
     );
     document.head!.appendChild(linkElement);
   }

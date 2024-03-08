@@ -1323,7 +1323,7 @@ dX(){var t,s,r,q,p,o,n=self,m=u.e,l=u.G
 if(l.a(m.a(n.document).head)!=null){t=m.a(m.a(n.document).createElement("link"))
 t.setAttribute("rel","stylesheet")
 t.setAttribute("type","text/css")
-t.setAttribute("href","assets/css/custom-ads.css")
+t.setAttribute("href","/assets/css/custom-ads.css")
 m.a(l.a(m.a(n.document).head).appendChild(t))}s=m.a(m.a(n.document).createElement("div"))
 s.setAttribute("class","divAds")
 r=l.a(l.a(m.a(n.document).body).querySelector("h1"))
