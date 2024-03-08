@@ -1,0 +1,16 @@
+{
+    "dart.lineLength": 100,
+    "[dart]": {
+        "editor.rulers": [
+            100
+        ],
+        "editor.quickSuggestionsDelay": 10000,
+    },
+    "editor.quickSuggestions": {
+        "other": "off"
+    },
+    "editor.quickSuggestionsDelay": 1000,
+    "editor.snippetSuggestions": "bottom",
+    "editor.inlineSuggest.enabled": false,
+    "editor.acceptSuggestionOnEnter": "on"
+}
