@@ -8,7 +8,7 @@ void main() {
     final linkElement = document.createElement('link');
     linkElement.setAttribute('rel', 'stylesheet');
     linkElement.setAttribute('type', 'text/css');
-    linkElement.setAttribute('href', 'assets/css/custom-ads.css');
+    linkElement.setAttribute('href', '/assets/css/custom-ads.css');
     document.head!.appendChild(linkElement);
   }
 
