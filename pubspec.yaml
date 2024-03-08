@@ -1,0 +1,16 @@
+name: custom_ads_script
+description: Script to add custom ads to websites.
+version: 1.0.0
+repository: https://github.com/fabiankaraben/custom_ads_script
+
+environment:
+  sdk: ^3.3.0
+
+# Add regular dependencies here.
+dependencies:
+  web: ^0.4.0
+
+dev_dependencies:
+  build_runner: ^2.4.0
+  build_web_compilers: ^4.0.0
+  lints: ^3.0.0
