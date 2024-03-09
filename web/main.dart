@@ -1,30 +1,58 @@
 import 'dart:js_interop';
 
-import 'package:web/helpers.dart';
+import 'package:web/web.dart';
+import 'html/banners/hostinger.dart' as hostinger_banners;
 
 void main() {
-  final baseUrl = document.URL.contains('localhost') || document.URL.contains('127.0.0.1')
-      ? 'http://127.0.0.1:8080'
-      : 'https://ads.esdocu.com';
+  final isDebugMode = document.URL.contains('localhost') || document.URL.contains('127.0.0.1');
+  final baseUrl = isDebugMode ? 'http://127.0.0.1:8080' : 'https://ads.esdocu.com';
 
   if (document.head != null) {
     // <link rel="stylesheet" href="styles.css">
     final linkElement = document.createElement('link');
     linkElement.setAttribute('rel', 'stylesheet');
     linkElement.setAttribute('type', 'text/css');
-    linkElement.setAttribute('href', '$baseUrl/assets/css/custom-ads.css');
+    linkElement.setAttribute('href', '$baseUrl/assets/css/ads.css');
     document.head!.appendChild(linkElement);
   }
 
-  final divElement = document.createElement('div');
-  divElement.setAttribute('class', 'divAds');
+  final contentElement = document.body?.querySelector('main.bd-main .bd-content');
 
-  final h1Element = document.body!.querySelector('h1')!;
-  h1Element.append(divElement.jsify()!);
+  if (contentElement != null) {
+    if (!isDebugMode) _addHostingerPixel();
 
-  // final now = DateTime.now();
-  // print(window.visualViewport!.height);
-  // final element = document.querySelector('#output') as HTMLDivElement;
-  // element.text = 'The time is ${now.hour}:${now.minute}:${now.second}'
-  //     ' and your Dart web app is running!';
+    final els = <Element>[];
+    for (var i = 0; i < contentElement.children.length; i++) {
+      if (i % 15 == 0) {
+        els.add(contentElement.children.item(i)!);
+      }
+    }
+
+    var tempIndex = 0;
+    for (var i = 0; i < els.length; i++) {
+      els[i].after(_getBanner(tempIndex, baseUrl).jsify()!);
+      tempIndex = tempIndex == 3 ? 0 : tempIndex + 1;
+    }
+  }
+}
+
+void _addHostingerPixel() {
+  var divElement = document.createElement('div');
+  divElement.innerHTML = hostinger_banners.pixel();
+  document.body!.append(divElement.jsify()!);
+}
+
+Element _getBanner(int index, String baseUrl) {
+  var divElement = document.createElement('div');
+  divElement.setAttribute('class', 'custom-ad-container');
+
+  final banners = [
+    hostinger_banners.banner1(baseUrl),
+    hostinger_banners.banner2(baseUrl),
+    hostinger_banners.banner3(baseUrl),
+    hostinger_banners.banner4(baseUrl),
+  ];
+
+  divElement.innerHTML = banners[index];
+  return divElement;
 }
