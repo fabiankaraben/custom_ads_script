@@ -14,6 +14,22 @@ void main() {
     linkElement.setAttribute('type', 'text/css');
     linkElement.setAttribute('href', '$baseUrl/assets/css/ads.css');
     document.head!.appendChild(linkElement);
+
+    // <link rel="stylesheet" href="tingle.min.css">
+    // final tingleLinkElement = document.createElement('link');
+    // tingleLinkElement.setAttribute('rel', 'stylesheet');
+    // tingleLinkElement.setAttribute('href', '$baseUrl/assets/css/tingle.min.css');
+    // document.head!.appendChild(tingleLinkElement);
+
+    // <script src="tingle.min.js"></script>
+    // final tingleScriptElement = document.createElement('script');
+    // tingleScriptElement.setAttribute('async', '');
+    // tingleScriptElement.setAttribute('src', '$baseUrl/assets/js/tingle.min.js');
+    // document.body!.appendChild(tingleScriptElement);
+    // tingleScriptElement.onLoad.listen((event) {
+    //   print(event);
+    //   window.alert('aaa');
+    // });
   }
 
   final contentElement = document.body?.querySelector('main.bd-main .bd-content');
@@ -34,6 +50,27 @@ void main() {
       tempIndex = tempIndex == 3 ? 0 : tempIndex + 1;
     }
   }
+
+  // Modal ad.
+  Future.delayed(const Duration(seconds: 30)).then((value) {
+    final tingleScript2Element = document.createElement('script');
+    tingleScript2Element.innerHTML = '''
+var modal = new tingle.modal({
+    closeMethods: ['overlay', 'button'],
+    closeLabel: "Cerrar",
+    onClose: function() {
+        window.open("https://www.hostg.xyz/SHEZo");
+    },
+});
+// set content
+modal.setContent(`
+${hostinger_banners.modal1(baseUrl)}
+`);
+
+modal.open();
+''';
+    document.body!.appendChild(tingleScript2Element);
+  });
 }
 
 void _addHostingerPixel() {
