@@ -87,7 +87,8 @@ String modal1(String baseUrl) => '''
 
     <p class="tw-text-xs sm:tw-text-sm tw-mt-2 tw-text-black">
       Solo recomendamos Hostinger por su excelente servicio y sus precios accesibles. 
-      Con tu compra recibimos una comisión.
+      Con tu compra recibimos una comisión. 
+      <a class="tw-font-medium tw-text-blue-600 dark:tw-text-blue-500 hover:tw-underline" href="#" onClick="modal.close();return false;">[X]</a>
     </p>
   </div>
 ''';
