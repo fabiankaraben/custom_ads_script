@@ -71,19 +71,23 @@ String banner4(String baseUrl) => '''
 ''';
 
 String modal1(String baseUrl) => '''
-  <h1 class="tw-text-center tw-mt-0">¿Nos ayudas con Esdocu?</h1>
-  <p class="tw-text-center">
-    CREANDO o MIGRANDO tu website a Hostinger 
-    nos ayudas a matener esta traducción de Bootstrap siempre actualizada.
-  </p>
+  <div class="custom-ad-container">
+    <p class="tw-text-center tw-mb-1 tw-text-lg tw-text-indigo-600">
+      ¿Nos ayudas con Esdocu?
+    </p>
+    <p class="tw-text-center tw-mb-3 tw-text-lg">
+      <span class="tw-font-bold">Creando</span> o <span class="tw-font-bold">migrando</span> 
+      tu website a Hostinger nos ayudas a matener esta traducción siempre actualizada.
+    </p>
 
-  <!-- WordPress Hosting with GEO target -->
-  <a href="https://www.hostg.xyz/SHEZo" target="_blank">
-      <img class="tw-w-full tw-rounded-md tw-border-0 tw-m-0" src="$baseUrl/assets/banners/hostinger/WPH-1024x512.jpg" alt="El mejor hosting WordPress" />
-  </a>
+    <!-- WordPress Hosting with GEO target -->
+    <a href="https://www.hostg.xyz/SHEZo" target="_blank">
+        <img class="tw-w-full tw-rounded-md tw-border-0 tw-m-0" src="$baseUrl/assets/banners/hostinger/WPH-1024x512.jpg" alt="El mejor hosting WordPress" />
+    </a>
 
-  <p class="tw-text-xs sm:tw-text-sm tw-mb-0">
-    Solo recomendamos Hostinger por su excelente servicio y sus precios accesibles. 
-    Con tu compra recibimos una comisión.
-  </p>
+    <p class="tw-text-xs sm:tw-text-sm tw-mt-2">
+      Solo recomendamos Hostinger por su excelente servicio y sus precios accesibles. 
+      Con tu compra recibimos una comisión.
+    </p>
+  </div>
 ''';

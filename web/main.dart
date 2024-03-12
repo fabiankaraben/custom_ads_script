@@ -52,7 +52,7 @@ void main() {
   }
 
   // Modal ad.
-  Future.delayed(const Duration(seconds: 5)).then((value) {
+  Future.delayed(const Duration(seconds: 15)).then((value) {
     final tingleScript2Element = document.createElement('script');
     tingleScript2Element.innerHTML = '''
 var modal = new tingle.modal({

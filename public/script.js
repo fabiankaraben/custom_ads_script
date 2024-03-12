@@ -2328,7 +2328,7 @@ return p}else return a},
 $S:11}
 A.ch.prototype={
 $1(a){var s=self,r=t.e,q=r.a(r.a(s.document).createElement("script"))
-q.innerHTML="var modal = new tingle.modal({\n    closeMethods: ['overlay', 'button'],\n    closeLabel: \"Cerrar\",\n    onClose: function() {\n        window.open(\"https://www.hostg.xyz/SHEZo\");\n    },\n});\n// set content\nmodal.setContent(`\n"+('  <h1 class="tw-text-center tw-mt-0">\xbfNos ayudas con Esdocu?</h1>\n  <p class="tw-text-center">\n    CREANDO o MIGRANDO tu website a Hostinger \n    nos ayudas a matener esta traducci\xf3n de Bootstrap siempre actualizada.\n  </p>\n\n  <!-- WordPress Hosting with GEO target -->\n  <a href="https://www.hostg.xyz/SHEZo" target="_blank">\n      <img class="tw-w-full tw-rounded-md tw-border-0 tw-m-0" src="'+this.a+'/assets/banners/hostinger/WPH-1024x512.jpg" alt="El mejor hosting WordPress" />\n  </a>\n\n  <p class="tw-text-xs sm:tw-text-sm tw-mb-0">\n    Solo recomendamos Hostinger por su excelente servicio y sus precios accesibles. \n    Con tu compra recibimos una comisi\xf3n.\n  </p>\n')+"\n`);\n\nmodal.open();\n"
+q.innerHTML="var modal = new tingle.modal({\n    closeMethods: ['overlay', 'button'],\n    closeLabel: \"Cerrar\",\n    onClose: function() {\n        window.open(\"https://www.hostg.xyz/SHEZo\");\n    },\n});\n// set content\nmodal.setContent(`\n"+('  <div class="custom-ad-container">\n    <p class="tw-text-center tw-mb-1 tw-text-lg tw-text-indigo-600">\n      \xbfNos ayudas con Esdocu?\n    </p>\n    <p class="tw-text-center tw-mb-3 tw-text-lg">\n      <span class="tw-font-bold">Creando</span> o <span class="tw-font-bold">migrando</span> \n      tu website a Hostinger nos ayudas a matener esta traducci\xf3n siempre actualizada.\n    </p>\n\n    <!-- WordPress Hosting with GEO target -->\n    <a href="https://www.hostg.xyz/SHEZo" target="_blank">\n        <img class="tw-w-full tw-rounded-md tw-border-0 tw-m-0" src="'+this.a+'/assets/banners/hostinger/WPH-1024x512.jpg" alt="El mejor hosting WordPress" />\n    </a>\n\n    <p class="tw-text-xs sm:tw-text-sm tw-mt-2">\n      Solo recomendamos Hostinger por su excelente servicio y sus precios accesibles. \n      Con tu compra recibimos una comisi\xf3n.\n    </p>\n  </div>\n')+"\n`);\n\nmodal.open();\n"
 r.a(t.G.a(r.a(s.document).body).appendChild(q))},
 $S:1};(function aliases(){var s=J.L.prototype
 s.a4=s.i})();(function installTearOffs(){var s=hunkHelpers._static_1,r=hunkHelpers._static_0
@@ -2512,7 +2512,7 @@ B.p=new A.b8()
 B.b=new A.bm()
 B.q=new A.bn()
 B.r=new A.aR(0)
-B.t=new A.aR(5e6)
+B.t=new A.aR(15e6)
 B.x=A.A("cn")
 B.y=A.A("co")
 B.z=A.A("bv")
