@@ -75,7 +75,7 @@ String modal1(String baseUrl) => '''
     <p class="tw-text-center tw-mb-1 tw-text-lg tw-text-indigo-600">
       ¿Nos ayudas con Esdocu?
     </p>
-    <p class="tw-text-center tw-mb-3 tw-text-lg">
+    <p class="tw-text-center tw-mb-3 tw-text-lg tw-text-black">
       <span class="tw-font-bold">Creando</span> o <span class="tw-font-bold">migrando</span> 
       tu website a Hostinger nos ayudas a matener esta traducción siempre actualizada.
     </p>
@@ -85,7 +85,7 @@ String modal1(String baseUrl) => '''
         <img class="tw-w-full tw-rounded-md tw-border-0 tw-m-0" src="$baseUrl/assets/banners/hostinger/WPH-1024x512.jpg" alt="El mejor hosting WordPress" />
     </a>
 
-    <p class="tw-text-xs sm:tw-text-sm tw-mt-2">
+    <p class="tw-text-xs sm:tw-text-sm tw-mt-2 tw-text-black">
       Solo recomendamos Hostinger por su excelente servicio y sus precios accesibles. 
       Con tu compra recibimos una comisión.
     </p>
