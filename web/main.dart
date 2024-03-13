@@ -52,15 +52,26 @@ void main() {
   }
 
   // Modal ad.
-  Future.delayed(const Duration(seconds: 15)).then((value) {
+  final modalSessionStorageKey = 'ad-modal';
+  var onClose = '';
+  if (window.sessionStorage.getItem(modalSessionStorageKey) == null) {
+    onClose = '''
+    onClose: function() {
+        sessionStorage.setItem('$modalSessionStorageKey', 1);
+        window.open("https://www.hostg.xyz/SHEZo");
+    },
+''';
+  }
+
+  Future.delayed(const Duration(seconds: 1)).then((value) {
+    window.sessionStorage.setItem(modalSessionStorageKey, '1');
+
     final tingleScript2Element = document.createElement('script');
     tingleScript2Element.innerHTML = '''
 var modal = new tingle.modal({
     closeMethods: ['overlay', 'button'],
     closeLabel: "Cerrar",
-    onClose: function() {
-        window.open("https://www.hostg.xyz/SHEZo");
-    },
+    $onClose
 });
 // set content
 modal.setContent(`
