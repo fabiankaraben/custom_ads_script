@@ -63,7 +63,7 @@ void main() {
 ''';
   }
 
-  Future.delayed(const Duration(seconds: 1)).then((value) {
+  Future.delayed(const Duration(seconds: 15)).then((value) {
     window.sessionStorage.setItem(modalSessionStorageKey, '1');
 
     final tingleScript2Element = document.createElement('script');
