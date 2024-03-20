@@ -1621,7 +1621,7 @@ h=A.dv(p)
 h.toString
 j.after.apply(j,[h])
 k=k===3?0:k+1}}g.a=""
-if(A.db(e.a(e.a(f.window).sessionStorage).getItem("ad-modal"))==null)g.a="    onClose: function() {\n        sessionStorage.setItem('ad-modal', 1);\n        window.open(\"https://www.hostg.xyz/SHEZo\");\n    },\n"
+if(A.db(e.a(e.a(f.window).sessionStorage).getItem("ad-modal"))==null)g.a="    onClose: function() {\n        sessionStorage.setItem('ad-modal', 1);\n        // window.open(\"https://www.hostg.xyz/SHEZo\");\n    },\n"
 A.dY(B.t,t.z).a_(new A.ch(g,"ad-modal",c),t.P)},
 ch:function ch(a,b,c){this.a=a
 this.b=b
