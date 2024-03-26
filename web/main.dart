@@ -35,7 +35,7 @@ void main() {
   final contentElement = document.body?.querySelector('main.bd-main .bd-content');
 
   if (contentElement != null) {
-    if (!isDebugMode) _addHostingerPixel();
+    // if (!isDebugMode) _addHostingerPixel();
 
     final els = <Element>[];
     for (var i = 0; i < contentElement.children.length; i++) {
