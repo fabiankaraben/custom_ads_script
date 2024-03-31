@@ -69,7 +69,7 @@ void main() {
     final tingleScript2Element = document.createElement('script');
     tingleScript2Element.innerHTML = '''
 var modal = new tingle.modal({
-    closeMethods: ['overlay', 'button'],
+    closeMethods: ['overlay', 'button', 'escape'],
     closeLabel: "Cerrar",
     $onClose
 });
