@@ -1594,28 +1594,28 @@ di(a){return a==null||A.c7(a)||typeof a=="number"||typeof a=="string"||t.U.b(a)|
 fg(a){if(A.di(a))return a
 return new A.cg(new A.av(t.a)).$1(a)},
 cg:function cg(a){this.a=a},
-fi(){var s,r,q,p,o,n,m,l,k,j,i,h,g={},f=self,e=t.e,d=B.d.Y(A.a1(e.a(f.document).URL),"localhost")||B.d.Y(A.a1(e.a(f.document).URL),"127.0.0.1")?"http://127.0.0.1:8080":"https://ads.esdocu.com",c=t.G
-if(c.a(e.a(f.document).head)!=null){s=e.a(e.a(f.document).createElement("link"))
+fi(){var s,r,q,p,o,n,m,l,k,j={},i=self,h=t.e,g=B.d.Y(A.a1(h.a(i.document).URL),"localhost")||B.d.Y(A.a1(h.a(i.document).URL),"127.0.0.1")?"http://127.0.0.1:8080":"https://ads.esdocu.com",f=t.G
+if(f.a(h.a(i.document).head)!=null){s=h.a(h.a(i.document).createElement("link"))
 s.setAttribute("rel","stylesheet")
 s.setAttribute("type","text/css")
-s.setAttribute("href",d+"/assets/css/ads.css")
-e.a(c.a(e.a(f.document).head).appendChild(s))}r=c.a(e.a(f.document).body)
-q=r==null?null:c.a(r.querySelector("main.bd-main .bd-content"))
+s.setAttribute("href",g+"/assets/css/ads.css")
+h.a(f.a(h.a(i.document).head).appendChild(s))}r=f.a(h.a(i.document).body)
+q=r==null?null:f.a(r.querySelector("main.bd-main .bd-content"))
 if(q!=null){p=A.aJ([],t.D)
-for(o=0;o<A.c6(e.a(q.children).length);++o)if(B.c.a2(o,15)===0){r=c.a(e.a(q.children).item(o))
+for(o=0;o<A.c6(h.a(q.children).length);++o)if(B.c.a2(o,15)===0){r=f.a(h.a(q.children).item(o))
 r.toString
-B.a.t(p,r)}for(c='  <!-- WordPress Hosting with GEO target -->\n  <div class="tw-mt-5 tw-flex tw-w-full tw-flex-row tw-items-center tw-justify-center">\n      <div class="tw-animate-border tw-inline-block tw-rounded-md tw-bg-white tw-bg-gradient-to-r tw-from-red-500 tw-via-purple-500 tw-to-blue-500 tw-bg-[length:400%_400%] tw-p-[5px]">\n          <a href="https://esdocu.com/mejor-hosting/" target="_blank">\n              <img class="tw-rounded-md tw-border-0 tw-m-0" src="'+d,r=c+'/assets/banners/hostinger/WPH-1024x512.jpg" alt="El mejor hosting WordPress" />\n          </a>\n      </div>\n  </div>\n  <div class="tw-mb-5 tw-px-2 tw-pt-1 tw-pb-2 tw-rounded-md tw-border tw-border-dotted tw-border-indigo-300 tw-border-t-transparent dark:tw-border-opacity-50">\n      <div class="tw-mx-1 tw-mt-1 tw-text-xs sm:tw-text-sm">\n          <strong>\xbfSab\xedas qu\xe9?</strong> Podr\xe1s evitar los principales errores al elegir tu empresa de Web Hosting leyendo nuestro art\xedculo\n          <a class="tw-font-medium tw-text-blue-600 dark:tw-text-blue-500 hover:tw-underline" href="https://esdocu.com/mejor-hosting/">\xbfCu\xe1l es el mejor web hosting?</a>.\n      </div>\n  </div>\n',n=c+'/assets/banners/hostinger/WPT-1024x512.jpg" alt="El mejor hosting WordPress" />\n          </a>\n      </div>\n  </div>\n  <div class="tw-mb-5 tw-px-2 tw-pt-1 tw-pb-2 tw-rounded-md tw-border tw-border-dotted tw-border-indigo-300 tw-border-t-transparent dark:tw-border-opacity-50">\n      <div class="tw-mx-1 tw-mt-1 tw-text-xs sm:tw-text-sm">\n          <strong>\xbfSab\xedas qu\xe9?</strong> Podr\xe1s evitar los principales errores al elegir tu empresa de Web Hosting leyendo nuestro art\xedculo\n          <a class="tw-font-medium tw-text-blue-600 dark:tw-text-blue-500 hover:tw-underline" href="https://esdocu.com/mejor-hosting/">\xbfCu\xe1l es el mejor web hosting?</a>.\n      </div>\n  </div>\n',m=c+'/assets/banners/hostinger/AFF-1024x512.jpg" alt="El mejor hosting WordPress" />\n          </a>\n      </div>\n  </div>\n  <div class="tw-mb-5 tw-px-2 tw-pt-1 tw-pb-2 tw-rounded-md tw-border tw-border-dotted tw-border-indigo-300 tw-border-t-transparent dark:tw-border-opacity-50">\n      <div class="tw-mx-1 tw-mt-1 tw-text-xs sm:tw-text-sm">\n          <strong>\xbfSab\xedas qu\xe9?</strong> Podr\xe1s evitar los principales errores al elegir tu empresa de Web Hosting leyendo nuestro art\xedculo\n          <a class="tw-font-medium tw-text-blue-600 dark:tw-text-blue-500 hover:tw-underline" href="https://esdocu.com/mejor-hosting/">\xbfCu\xe1l es el mejor web hosting?</a>.\n      </div>\n  </div>\n',c+='/assets/banners/hostinger/1024x512.jpg" alt="El mejor hosting WordPress" />\n          </a>\n      </div>\n  </div>\n  <div class="tw-mb-5 tw-px-2 tw-pt-1 tw-pb-2 tw-rounded-md tw-border tw-border-dotted tw-border-indigo-300 tw-border-t-transparent dark:tw-border-opacity-50">\n      <div class="tw-mx-1 tw-mt-1 tw-text-xs sm:tw-text-sm">\n          <strong>\xbfSab\xedas qu\xe9?</strong> Podr\xe1s evitar los principales errores al elegir tu empresa de Web Hosting leyendo nuestro art\xedculo\n          <a class="tw-font-medium tw-text-blue-600 dark:tw-text-blue-500 hover:tw-underline" href="https://esdocu.com/mejor-hosting/">\xbfCu\xe1l es el mejor web hosting?</a>.\n      </div>\n  </div>\n',l=0,o=0;o<p.length;++o){k=p[o]
-j=e.a(e.a(f.document).createElement("div"))
-j.setAttribute("class","custom-ad-container")
-i=[r,n,m,c]
-if(!(l<4))return A.z(i,l)
-j.innerHTML=i[l]
-h=A.fg(j)
-h.toString
-k.after.apply(k,[h])
-l=l===3?0:l+1}}g.a=""
-if(A.db(e.a(e.a(f.window).sessionStorage).getItem("ad-modal"))==null)g.a="    onClose: function() {\n        sessionStorage.setItem('ad-modal', 1);\n        // window.open(\"https://www.hostg.xyz/SHEZo\");\n    },\n"
-A.dX(B.t,t.z).a_(new A.ch(g,"ad-modal",d),t.P)},
+B.a.t(p,r)}for(f='  <!-- Mejor hosting -->\n  <div class="tw-mt-5 tw-flex tw-w-full tw-flex-row tw-items-center tw-justify-center">\n      <div class="tw-animate-border tw-inline-block tw-rounded-md tw-bg-white tw-bg-gradient-to-r tw-from-red-500 tw-via-purple-500 tw-to-blue-500 tw-bg-[length:400%_400%] tw-p-[5px]">\n          <a href="https://esdocu.com/mejor-hosting/" target="_blank" rel="nofollow">\n              <img class="tw-rounded-md tw-border-0 tw-m-0" src="'+g+'/assets/banners/hostinger/mejor-hosting-banner1.png" alt="El mejor hosting en 2024" />\n          </a>\n      </div>\n  </div>\n',n=0,o=0;o<p.length;++o){r=p[o]
+m=h.a(h.a(i.document).createElement("div"))
+m.setAttribute("class","custom-ad-container")
+l=[f,f,f,f]
+if(!(n<4))return A.z(l,n)
+m.innerHTML=l[n]
+k=A.fg(m)
+k.toString
+r.after.apply(r,[k])
+n=n===3?0:n+1}}j.a=""
+if(A.db(h.a(h.a(i.window).sessionStorage).getItem("ad-modal"))==null)j.a="    onClose: function() {\n        sessionStorage.setItem('ad-modal', 1);\n        // window.open(\"https://www.hostg.xyz/SHEZo\");\n    },\n"
+A.dX(B.t,t.z).a_(new A.ch(j,"ad-modal",g),t.P)},
 ch:function ch(a,b,c){this.a=a
 this.b=b
 this.c=c},
@@ -2327,7 +2327,7 @@ A.ch.prototype={
 $1(a){var s,r=self,q=t.e
 q.a(q.a(r.window).sessionStorage).setItem(this.b,"1")
 s=q.a(q.a(r.document).createElement("script"))
-s.innerHTML="var modal = new tingle.modal({\n    closeMethods: ['overlay', 'button'],\n    closeLabel: \"Cerrar\",\n    "+this.a.a+"\n});\n// set content\nmodal.setContent(`\n"+('  <div class="custom-ad-container">\n    <p class="tw-text-center tw-mb-1 tw-text-lg tw-text-indigo-600">\n      \xbfNos ayudas con Esdocu?\n    </p>\n    <p class="tw-text-center tw-mb-3 tw-text-lg tw-text-black">\n      <span class="tw-font-bold">Creando</span> o <span class="tw-font-bold">migrando</span> \n      tu website a Hostinger nos ayudas a matener esta traducci\xf3n siempre actualizada.\n    </p>\n\n    <!-- WordPress Hosting with GEO target -->\n    <a href="https://esdocu.com/mejor-hosting/" target="_blank">\n        <img class="tw-w-full tw-rounded-md tw-border-0 tw-m-0" src="'+this.c+'/assets/banners/hostinger/WPH-1024x512.jpg" alt="El mejor hosting WordPress" />\n    </a>\n\n    <p class="tw-text-xs sm:tw-text-sm tw-mt-2 tw-text-black">\n      Solo recomendamos Hostinger por su excelente servicio y sus precios accesibles. \n      Con tu compra recibimos una comisi\xf3n. \n      <a class="tw-font-medium tw-text-blue-600 dark:tw-text-blue-500 hover:tw-underline" href="#" onClick="modal.close();return false;">[cerrar]</a>\n    </p>\n  </div>\n')+"\n`);\n\nmodal.open();\n"
+s.innerHTML="var modal = new tingle.modal({\n    closeMethods: ['overlay', 'button', 'escape'],\n    closeLabel: \"Cerrar\",\n    "+this.a.a+"\n});\n// set content\nmodal.setContent(`\n"+('  <div class="custom-ad-container">\n    <!-- Mejor web hosting banner -->\n    <a href="https://esdocu.com/mejor-hosting/" target="_blank" rel="nofollow">\n        <img class="tw-w-full tw-rounded-md tw-border-0 tw-m-0" src="'+this.c+'/assets/banners/hostinger/mejor-hosting-banner1.png" alt="El mejor hosting en 2024" />\n    </a>\n  </div>\n')+"\n`);\n\nmodal.open();\n"
 q.a(t.G.a(q.a(r.document).body).appendChild(s))},
 $S:1};(function aliases(){var s=J.L.prototype
 s.a4=s.i})();(function installTearOffs(){var s=hunkHelpers._static_1,r=hunkHelpers._static_0
