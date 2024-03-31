@@ -1604,7 +1604,7 @@ q=r==null?null:f.a(r.querySelector("main.bd-main .bd-content"))
 if(q!=null){p=A.aJ([],t.D)
 for(o=0;o<A.c6(h.a(q.children).length);++o)if(B.c.a2(o,15)===0){r=f.a(h.a(q.children).item(o))
 r.toString
-B.a.t(p,r)}for(f='  <!-- Mejor hosting -->\n  <div class="tw-mt-5 tw-flex tw-w-full tw-flex-row tw-items-center tw-justify-center">\n      <div class="tw-animate-border tw-inline-block tw-rounded-md tw-bg-white tw-bg-gradient-to-r tw-from-red-500 tw-via-purple-500 tw-to-blue-500 tw-bg-[length:400%_400%] tw-p-[5px]">\n          <a href="https://esdocu.com/mejor-hosting/" target="_blank" rel="nofollow">\n              <img class="tw-rounded-md tw-border-0 tw-m-0" src="'+g+'/assets/banners/hostinger/mejor-hosting-banner-1.png" alt="El mejor hosting en 2024" />\n          </a>\n      </div>\n  </div>\n',n=0,o=0;o<p.length;++o){r=p[o]
+B.a.t(p,r)}for(f='  <!-- Mejor hosting -->\n  <div class="tw-my-5 tw-flex tw-w-full tw-flex-row tw-items-center tw-justify-center">\n      <div class="tw-animate-border tw-inline-block tw-rounded-md tw-bg-white tw-bg-gradient-to-r tw-from-red-500 tw-via-purple-500 tw-to-blue-500 tw-bg-[length:400%_400%] tw-p-[5px]">\n          <a href="https://esdocu.com/mejor-hosting/" target="_blank" rel="nofollow">\n              <img class="tw-rounded-md tw-border-0 tw-m-0" src="'+g+'/assets/banners/hostinger/mejor-hosting-banner-1.png" alt="El mejor hosting en 2024" />\n          </a>\n      </div>\n  </div>\n',n=0,o=0;o<p.length;++o){r=p[o]
 m=h.a(h.a(i.document).createElement("div"))
 m.setAttribute("class","custom-ad-container")
 l=[f,f,f,f]
