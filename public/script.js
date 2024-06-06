@@ -1614,7 +1614,7 @@ k=A.fg(m)
 k.toString
 r.after.apply(r,[k])
 n=n===3?0:n+1}}j.a=""
-if(A.db(h.a(h.a(i.window).sessionStorage).getItem("ad-modal"))==null)j.a="    onClose: function() {\n        sessionStorage.setItem('ad-modal', 1);\n        window.open(\"https://www.hostg.xyz/SHEZo\");\n    },\n"
+if(A.db(h.a(h.a(i.window).sessionStorage).getItem("ad-modal"))==null)j.a="    onClose: function() {\n        // sessionStorage.setItem('ad-modal', 1);\n        window.open(\"https://www.hostg.xyz/SHEZo\");\n    },\n"
 A.dX(B.t,t.z).a_(new A.ch(j,"ad-modal",g),t.P)},
 ch:function ch(a,b,c){this.a=a
 this.b=b
@@ -2327,7 +2327,7 @@ A.ch.prototype={
 $1(a){var s,r=self,q=t.e
 q.a(q.a(r.window).sessionStorage).setItem(this.b,"1")
 s=q.a(q.a(r.document).createElement("script"))
-s.innerHTML="var modal = new tingle.modal({\n    closeMethods: ['overlay', 'button', 'escape'],\n    closeLabel: \"Cerrar\",\n    "+this.a.a+"\n});\n// set content\nmodal.setContent(`\n"+('  <div class="custom-ad-container">\n    <!-- Mejor web hosting banner -->\n    <a href="https://esdocu.com/mejor-hosting/" target="_blank" rel="nofollow">\n        <img class="tw-w-full tw-rounded-md tw-border-0 tw-m-0" src="'+this.c+'/assets/banners/hostinger/mejor-hosting-banner-1.png" alt="El mejor hosting en 2024" />\n    </a>\n  </div>\n')+"\n`);\n\nmodal.open();\n"
+s.innerHTML="var modal = new tingle.modal({\n    closeMethods: ['overlay', 'button'], // , 'escape'\n    closeLabel: \"Cerrar\",\n    "+this.a.a+"\n});\n// set content\nmodal.setContent(`\n"+('  <div class="custom-ad-container">\n    <!-- Mejor web hosting banner -->\n    <a href="https://esdocu.com/mejor-hosting/" target="_blank" rel="nofollow">\n        <img class="tw-w-full tw-rounded-md tw-border-0 tw-m-0" src="'+this.c+'/assets/banners/hostinger/mejor-hosting-banner-1.png" alt="El mejor hosting en 2024" />\n    </a>\n  </div>\n')+"\n`);\n\nmodal.open();\n"
 q.a(t.G.a(q.a(r.document).body).appendChild(s))},
 $S:1};(function aliases(){var s=J.L.prototype
 s.a4=s.i})();(function installTearOffs(){var s=hunkHelpers._static_1,r=hunkHelpers._static_0

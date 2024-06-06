@@ -57,7 +57,7 @@ void main() {
   if (window.sessionStorage.getItem(modalSessionStorageKey) == null) {
     onClose = '''
     onClose: function() {
-        sessionStorage.setItem('$modalSessionStorageKey', 1);
+        // sessionStorage.setItem('$modalSessionStorageKey', 1);
         window.open("https://www.hostg.xyz/SHEZo");
     },
 ''';
@@ -69,7 +69,7 @@ void main() {
     final tingleScript2Element = document.createElement('script');
     tingleScript2Element.innerHTML = '''
 var modal = new tingle.modal({
-    closeMethods: ['overlay', 'button', 'escape'],
+    closeMethods: ['overlay', 'button'], // , 'escape'
     closeLabel: "Cerrar",
     $onClose
 });
