@@ -58,8 +58,8 @@ void main() {
     onClose = '''
     onClose: function() {
         // sessionStorage.setItem('$modalSessionStorageKey', 1);
-        // window.open("https://www.hostg.xyz/SHEZo");
-        window.open("https://esdocu.com/mejor-hosting");
+        window.open("https://www.hostg.xyz/SHEZo");
+        // window.open("https://esdocu.com/mejor-hosting");
     },
 ''';
   }

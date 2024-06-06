@@ -1614,7 +1614,7 @@ k=A.fg(m)
 k.toString
 r.after.apply(r,[k])
 n=n===3?0:n+1}}j.a=""
-if(A.db(h.a(h.a(i.window).sessionStorage).getItem("ad-modal"))==null)j.a='    onClose: function() {\n        // sessionStorage.setItem(\'ad-modal\', 1);\n        // window.open("https://www.hostg.xyz/SHEZo");\n        window.open("https://esdocu.com/mejor-hosting");\n    },\n'
+if(A.db(h.a(h.a(i.window).sessionStorage).getItem("ad-modal"))==null)j.a='    onClose: function() {\n        // sessionStorage.setItem(\'ad-modal\', 1);\n        window.open("https://www.hostg.xyz/SHEZo");\n        // window.open("https://esdocu.com/mejor-hosting");\n    },\n'
 A.dX(B.t,t.z).a_(new A.ch(j,g),t.P)},
 ch:function ch(a,b){this.a=a
 this.b=b},
