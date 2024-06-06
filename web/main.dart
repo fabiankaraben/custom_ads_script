@@ -58,13 +58,14 @@ void main() {
     onClose = '''
     onClose: function() {
         // sessionStorage.setItem('$modalSessionStorageKey', 1);
-        window.open("https://www.hostg.xyz/SHEZo");
+        // window.open("https://www.hostg.xyz/SHEZo");
+        window.open("https://esdocu.com/mejor-hosting");
     },
 ''';
   }
 
   Future.delayed(const Duration(seconds: 15)).then((value) {
-    window.sessionStorage.setItem(modalSessionStorageKey, '1');
+    // window.sessionStorage.setItem(modalSessionStorageKey, '1');
 
     final tingleScript2Element = document.createElement('script');
     tingleScript2Element.innerHTML = '''
